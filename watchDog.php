@@ -41,7 +41,7 @@ function ping($host,$port=443,$timeout=5){
 		$subject = "【停止】死活監視情報配信システム";
 		$message = "結果:サーバが停止しています。".PHP_EOL."直ちに点検してください。".PHP_EOL."対象ホスト:".$host.PHP_EOL."検査日時:".$date;
 			break;
-}
+	}
 
 $message 	.= PHP_EOL.PHP_EOL."-------------------------------------".PHP_EOL;
 $message 	.= "ヘルスチェックの結果は以下の通りです".PHP_EOL;
